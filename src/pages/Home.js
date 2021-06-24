@@ -29,8 +29,8 @@ const renderResults = results => {
 
 const Home = () => {
   const [input, setInput] = useLastQuery();
-  const [searchOption, setSearchOption] = useState('shows');
   const [results, setResults] = useState(null);
+  const [searchOption, setSearchOption] = useState('shows');
 
   const isShowsSearch = searchOption === 'shows';
   const onSearch = () => {
